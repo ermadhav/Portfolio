@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>What About You</title>
+    <link rel="icon" type="image/x-icon" href="{% static 'img/raunakico.ico' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Cormorant+Garamond&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #ffdbf2; /* Romantic pink background */
+            font-family: 'Cormorant Garamond', serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .proposal-text-box {
+            max-width: 400px;
+            padding: 20px;
+            background-color: #ffdbf2;
+            border: 2px solid #ff66b2;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .proposal-text-box:hover {
+            transform: scale(1.05); /* Enlarge on hover */
+        }
+
+        .proposal-label {
+            display: block;
+            margin-bottom: 10px;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 24px;
+            color: #ff66b2;
+        }
+
+        .proposal-input {
+            width: calc(100% - 24px);
+            padding: 12px;
+            border: 2px solid #ff66b2;
+            border-radius: 15px;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 18px;
+            outline: none;
+            margin-bottom: 10px;
+            height: 100px;
+            width: 300px;
+            background-color: whitesmoke;
+            transition: border-color 0.3s ease-in-out;
+        }
+
+        .proposal-input::placeholder {
+            color: #ff66b2;
+        }
+
+        .proposal-input:hover,
+        .proposal-input:focus {
+            border-color: #ad1555; /* Darker pink on hover/focus */
+        }
+
+        /* Add some animation for a more romantic feel */
+        .proposal-text-box {
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- <form action="/free-ho-kya/cutiee/reply" method="POST">  -->
+        <div class="proposal-text-box">
+            <!-- <label class="proposal-label" for="proposalText">What About You 🤔💭:</label> -->
+            <div class="proposal-label">What About You 🤔💭</div>
+            <!-- <textarea class="proposal-input" type="text" id="proposalText" name="proposalText" placeholder="Is There Anything you'd like to Discuss or Clarify About the Proposal😊" required></textarea> -->
+            <div class="proposal-input">Is There Anything you'd like to Discuss or Clarify About the Proposal😊</div>
+        </div>
+    <!-- </form> -->
+</body>
+</html>

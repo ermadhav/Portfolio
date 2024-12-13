@@ -1,0 +1,59 @@
+body {
+  /* background-image: url("path/to/starry-night-pattern.png");  */
+  font-family: "Merriweather", sans-serif;
+  background-color: palevioletred;
+  color: white;
+  text-align: center;
+  margin: 20px;
+  
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  padding: 20px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+  font-size: 18px;
+  color: white;
+}
+
+input[type="text"] {
+  width: 200px;
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input[type="button"] {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #f08080; /* Light pink */
+  border: 2px solid #f08080;
+  color: white;
+  border-radius: 4px;
+  cursor:pointer;
+  transition: all 0.3s ease;
+}
+
+input[type="button"]:hover {
+  background-color: #e54d42; /* Darker pink */
+  transform: scale(1.05); /* Subtle pulse effect */
+}
+
+#loveScore {
+  margin: 20px;
+  font-size: 20px;
+  color: white;
+}
+footer{
+  padding-top: 30%;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, rgba(0, 0, 0, 0.5));
+}

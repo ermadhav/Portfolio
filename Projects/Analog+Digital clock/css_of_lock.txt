@@ -1,0 +1,178 @@
+--->NORMAL CSS<---
+#clock {
+  background-image: url(clock.jpg);
+  background-size: cover;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 50px auto;
+  font-size: 24px;
+  border: solid; 
+  border-radius: 50%;
+  border-color: blue;
+  text-align:center;
+  top: 150px;
+  bottom: 50%;
+  
+
+}
+
+.hour-line, .minute-line, .second-line {
+  position: absolute;
+  transform-origin: 50% 100%;
+  padding-bottom: 15%;
+  left: 50%;
+}
+
+.hour-line {
+  width: 6px;
+  height: 60px;
+  top: 70px;
+  color: aqua;
+}
+
+.minute-line {
+  width: 4px;
+  height: 80px;
+  top: 45px;
+  color: blueviolet;
+  
+}
+
+.second-line {
+  width: 2px;
+  height: 100px;
+  top: 25px;
+  color: red;
+ 
+} 
+***************************************************************************************************
+--->Chat GPT<---
+ #clock {
+  background-image: url(clock.jpg);
+  background-size: cover;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 50px auto;
+  font-size: 24px;
+  border: solid;
+  border-radius: 50%;
+  border-color: blue;
+  text-align: center;
+  top: 150px;
+  bottom: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.5s ease-in-out;
+  cursor: pointer;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%);
+  animation: rotateAnimation 60s linear infinite;
+}
+
+#clock:after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hour-line, .minute-line, .second-line {
+  position: absolute;
+  transform-origin: 50% 100%;
+  padding-bottom: 15%;
+  left: 50%;
+}
+
+.hour-line {
+  width: 6px;
+  height: 60px;
+  top: 70px;
+  color: aqua;
+}
+
+.minute-line {
+  width: 4px;
+  height: 80px;
+  top: 45px;
+  color: blueviolet;
+}
+
+.second-line {
+  width: 2px;
+  height: 100px;
+  top: 25px;
+  color: red;
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} 
+***************************************************************************************************
+---> Bard <---
+#clock {
+  background-image: url(clock.jpg);
+  background-size: cover;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 50px auto;
+  font-size: 36px;  
+  border: solid 5px; 
+  border-radius: 50%;
+  border-color: blue;
+  text-align: center;
+  top: 150px;
+  bottom: 50%;
+  background-blend-mode: multiply; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out; 
+}
+
+#clock:hover {
+  transform: scale(1.05); 
+}
+
+.hour-line, .minute-line, .second-line {
+  position: absolute;
+  transform-origin: 50% 100%;
+  padding-bottom: 15%;
+  left: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hour-line {
+  width: 6px;
+  height: 60px;
+  top: 70px;
+  color: aqua;
+  border-radius: 10px; 
+  background: linear-gradient(to top, rgb(0, 255, 21), orange);
+}
+
+.minute-line {
+  width: 4px;
+  height: 80px;
+  top: 45px;
+  color: blueviolet;
+  box-shadow: 0px 0px 4px rgba(0, 0, 255, 0.3); 
+}
+
+.second-line {
+  width: 2px;
+  height: 100px;
+  top: 25px;
+  color: red;
+  background: linear-gradient(to top, red, orange); 
+}

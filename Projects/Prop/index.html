@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> page 1 </title>
+
+    <link rel="icon" type="image/x-icon" href="{% static 'raunakico.ico' %}">
+    <!-- Add Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to right, #ffeded, #ffd6d6);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('your-header-background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.proposal-text {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 20px;
+    color: #ff6b6b; /* Romantic red color */
+}
+
+.proposal-button {
+    display: inline-block;
+    background-color: #ff6b6b;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.proposal-button:hover {
+    background-color: #ff4e4e;
+}
+
+/* Add Heart Icons */
+.heart-icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.heart-icon {
+    color: #ff6b6b;
+    font-size: 2rem;
+}
+
+/* Add Parallax Effect to Header */
+header::before {
+    content: '';
+    background: url('sparkling-stars.png') repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+/* Hover Effect on Proposal Text */
+.proposal-text:hover {
+    color: #ff4e4e;
+    transform: scale(1.05);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header {
+        padding: 30px 0;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .proposal-button {
+        font-size: 1rem;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+    </header>
+    <div class="container">
+        <div class="proposal-text">
+            <br>
+            <br>
+            <p style="margin-right: 84%;">(Name)BOY:-</p>
+            <p style="margin: -3% -1% 0% -40%;">Hello-hey</p>
+
+            <br>
+            <br>
+            <p style="margin-right: 84%;">(Name)Girl:-</p>
+            <p style="margin: -3% -1% 0% -40%;"><a href="page2.html"><button class="btn btn-primary proposal-button">Hey</button></a></p>
+        </div>
+        <div class="button-container">
+            
+        </div>
+    </div>
+
+    <!-- Add Bootstrap JavaScript and jQuery (optional) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
