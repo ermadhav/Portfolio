@@ -706,7 +706,7 @@
 						style="background-image: url(images/web-chat.jpg); background-size: contain;">
 						<div class="overlay"></div>
 						<div class="text text-center p-4">
-							<h3></h3>
+							<h3>Web Chat App</h3>
 						</div>
 					</div>
 					<div class="button-group">
@@ -763,6 +763,12 @@
 							class="btn btn-live">Live Demo</a>
 					</div>
 				</div>
+				<div class="container d-flex align-items-center justify-content-center" style="height: 20vh;">
+					<div class="col-md-10 text-center">
+						<a href="https://github.com/ermadhav" target="_blank" class="btn btn-live">View All Projects on GitHub</a>
+					</div>
+				</div>
+				
 				<!-- Repeat the above block for other projects -->
 				<!-- </div>C:\Users\madha\OneDrive\Desktop\My Codes\Portfolio\Projects\API\search.html -->
 
@@ -773,6 +779,77 @@
 						<iframe id="projectFrame" src="" frameborder="0"></iframe>
 					</div>
 				</div>
+
+				<style>
+					.project {
+						position: relative;
+						overflow: hidden;
+						border-radius: 5%;
+						height: 50vh;
+						background-size: cover;
+						background-position: center;
+						cursor: pointer;
+					}
+		
+					.overlay {
+						position: absolute;
+						top: 0;
+						left: 0;
+						width: 100%;
+						height: 100%;
+						background: rgba(0, 0, 0, 0.5);
+						z-index: 1;
+					}
+		
+					.text {
+						position: relative;
+						z-index: 2;
+						text-align: center;
+						padding: 20px;
+					}
+		
+					.button-group {
+						display: flex;
+						justify-content: center;
+						gap: 15px;
+						margin-top: 15px;
+					}
+		
+					.btn {
+						display: inline-block;
+						padding: 10px 20px;
+						font-size: 14px;
+						color: #fff;
+						text-decoration: none;
+						border-radius: 5px;
+						transition: all 0.3s ease-in-out;
+					}
+		
+					.btn-github {
+						background-color: #333;
+					}
+		
+					.btn-github:hover {
+						background-color: #555;
+					}
+		
+					.btn-live {
+						background-color: #ff9f00;
+					}
+		
+					.btn-live:hover {
+						background-color: #ff7700;
+					}
+		
+					.project-card {
+						margin-bottom: 40px;
+					}
+		
+					.center-button {
+						margin-top: 30px;
+						text-align: center;
+					}
+				</style>
 
 				<style>
 					/* Modal Styling */
@@ -977,7 +1054,7 @@
 
 		<div class="row no-gutters block-9">
 			<div class="col-md-6 order-md-last d-flex border-radius=5%">
-				<form action="https://script.google.com/macros/s/AKfycbycYotUVpweol0W3oH3XbL2rtq30veGt_NoX1STcICmC97pkF6iwgGCTBDH27GdgXAK-w/exec" method="POST" class="bg-light p-4 p-md-5 contact-form" onsubmit="submitForm(event)">
+				<!-- <form action="https://script.google.com/macros/s/AKfycbwPvRPPU37TqNRgF2v6XDSb8-QTEYcjvRvA83WVrdNN6Cto1_aInzhdnpPOC0Xbh8j9OA/exec" method="POST" class="bg-light p-4 p-md-5 contact-form" onsubmit="submitForm(event)">
 					<div class="form-group">
 					  <input type="text" class="form-control" name="name" placeholder="Your Name" required>
 					</div>
@@ -993,9 +1070,9 @@
 					<div class="form-group">
 					  <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
 					</div>
-				  </form>
+				  </form> -->
 				  
-				  <script>
+				  <!-- <script>
 					async function submitForm(event) {
 					  event.preventDefault(); // Prevent default form submission
 					  
@@ -1024,7 +1101,7 @@
 						alert("Error: " + error.message);
 					  }
 					}
-				  </script>
+				  </script> -->
 				  
 			</div>
 
@@ -1084,8 +1161,8 @@
 								</li>
 								<li><a href="#resume-section"><span class="icon-long-arrow-right mr-2"></span>Resume</a>
 								</li>
-								<li><a href="#services-section"><span
-											class="icon-long-arrow-right mr-2"></span>Services</a></li>
+								<!-- <li><a href="#services-section"><span
+											class="icon-long-arrow-right mr-2"></span>Services</a></li> -->
 								<li><a href="#projects-section"><span
 											class="icon-long-arrow-right mr-2"></span>Projects</a></li>
 								<li><a href="#contact-section"><span
@@ -1093,7 +1170,7 @@
 							</ul>
 					</div>
 				</div>
-				<div class="col-md">
+				<!-- <div class="col-md">
 					<div class="ftco-footer-widget mb-4">
 						<h3 class="ftco-heading-2">Services</h2>
 							<ul class="l3st-unstyled">
@@ -1105,30 +1182,74 @@
 								<li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>IOS
 										developer</a></li>
 
-								<!-- <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Data Analysis</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Graphic Design</a></li> -->
+								 <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Data Analysis</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Graphic Design</a></li> 
 							</ul>
 					</div>
-				</div>
+				</div> -->
 				<div class="col-md">
 					<div class="ftco-footer-widget mb-4">
-						<h3 class="ftco-heading-2">Have a Questions?</h2>
-							<di3 class="block-23 mb-3">
-								<ul>
-									<li><span class="icon icon-map-marker"></span>
-										<span class="text">Arya College of
-											Engineering, Jaipur</span></li>
-									<li><a><span class="icon icon-phone"></span>
-										<span class="text">+91
-												9926565563</span></a></li>
-									<li><a><span class="icon icon-envelope"></span>
-											<span class="text">madhavtiwari2024@gmail.com
-											</span></a></li>
-									<!-- <li><a ><span class="icon icon-envelope"></span><span class="text">
-								            madhavtiwari2024@gmail.com</span></a></li> -->
-								</ul>
+						<h3 class="ftco-heading-2">Have a Questions?</h3>
+						<div class="block-23 mb-3">
+							<ul>
+								<li>
+									<span class="icon icon-map-marker"></span>
+									<span class="text">Arya College of Engineering, Jaipur</span>
+								</li>
+								<li>
+									<a href="tel:+919926565563">
+										<span class="icon icon-phone"></span>
+										<span class="text">+91 9926565563</span>
+									</a>
+								</li>
+								<li>
+									<a href="mailto:madhavtiwari2024@gmail.com">
+										<span class="icon icon-envelope"></span>
+										<span class="text">madhavtiwari2024@gmail.com</span>
+									</a>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
+				
+				<style>
+					/* Reset margin/padding for ul */
+					.block-23 ul {
+						list-style: none;
+						padding: 0;
+						margin: 0;
+					}
+				
+					/* Align each list item using flexbox */
+					.block-23 ul li {
+						display: flex;
+						align-items: center; /* Vertical alignment */
+						margin-bottom: 15px; /* Space between list items */
+					}
+				
+					/* Styling the icons */
+					.block-23 ul li .icon {
+						font-size: 20px; /* Adjust icon size */
+						margin-right: 12px; /* Space between icon and text */
+						color: #fff; /* Adjust icon color */
+					}
+				
+					/* Text styling */
+					.block-23 ul li .text {
+						font-size: 16px;
+						color: #ccc; /* Text color */
+					}
+				
+					/* Remove underlines for anchor tags */
+					.block-23 ul li a {
+						text-decoration: none;
+						color: inherit;
+						display: flex;
+						align-items: center;
+					}
+				</style>
+				
 			</div>
 		</div>
 		<div class="row">
